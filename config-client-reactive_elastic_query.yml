@@ -1,0 +1,40 @@
+elastic-query-service:
+  version: v1
+  backPressure-delay-ms: 500
+
+server:
+  port: 8183
+
+spring:
+  webflux:
+    base-path: /reactive-elastic-query-service
+  codec:
+    max-in-memory-size: 25MB
+  data:
+    elasticsearch:
+      client:
+        reactive:
+          max-in-memory-size: 25MB
+
+elastic-query-config:
+  text-field: text
+
+elastic-config:
+  index-name: twitter-index
+  connection-url: http://localhost:9200
+  connect-timeout-ms: 5000
+  socket-timeout-ms: 30000
+
+user-config:
+  username: test
+  password: '{cipher}61b311c42187b68c7cf78ffa50262807069fe8bcdc8ea45497a643eed6203f1d'
+  roles: USER
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+
+security:
+  paths-to-ignore: /api-docs
