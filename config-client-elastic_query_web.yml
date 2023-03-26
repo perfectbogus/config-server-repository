@@ -46,6 +46,7 @@ spring:
 
 security:
   logout-success-url: http://localhost:8084/elastic-query-web-client
+  default-client-registration-id: keycloak
 
 user-config:
   username: test
