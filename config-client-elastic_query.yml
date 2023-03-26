@@ -14,6 +14,8 @@ spring:
         jwt:
           issuer-uri: http://localhost:8081/auth/realms/microservices-realm
           jwt-set-uri: http://localhost:8081/auth/realms/microservices-realm/protocol/openid-connect/certs
+  jpa:
+    open-in-view: false
 
 elastic-query-config:
   text-field: text
