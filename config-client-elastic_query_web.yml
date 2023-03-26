@@ -45,7 +45,7 @@ spring:
             issuerUri: http://localhost:8081/auth/realms/microservices-realm
 
 security:
-  logout-success-url: http://localhost:8084/elastic-query-web-client
+  logout-success-url: http://localhost:8184/elastic-query-web-client
   default-client-registration-id: keycloak
 
 user-config:
