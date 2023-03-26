@@ -22,7 +22,7 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5Dialect
   datasource:
-    url: jdbc:mysql://localhost:3306
+    url: jdbc:mysql://localhost:3306/keycloak
     username: root
     password: changeme
     driver-class-name: com.mysql.cj.jdbc.Driver
