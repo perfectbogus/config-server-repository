@@ -29,7 +29,7 @@ spring:
     platform: mysql
     schema: classpath:init-schema.sql
     data: classpath:init-data.sql
-    initialization-mode: always
+    initialization-mode: never
 
 elastic-query-config:
   text-field: text
