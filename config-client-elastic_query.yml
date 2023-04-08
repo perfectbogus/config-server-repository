@@ -28,8 +28,8 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: http://localhost:8081/auth/realms/microservices-realm
-          jwt-set-uri: http://localhost:8081/auth/realms/microservices-realm/protocol/openid-connect/certs
+          issuer-uri: http://localhost:9081/auth/realms/microservices-realm
+          jwt-set-uri: http://localhost:9081/auth/realms/microservices-realm/protocol/openid-connect/certs
       client:
         registration:
           keycloak:
