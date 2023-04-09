@@ -27,7 +27,7 @@ spring:
         order_inserts: true
         order_updates: true
   datasource:
-    url: jdbc:mysql://localhost:3306/keycloak
+    url: jdbc:mysql://localhost:3306/keycloak?useUnicode=yes&characterEncoding=UTF-8
     username: root
     password: changeme
     driver-class-name: com.mysql.cj.jdbc.Driver
