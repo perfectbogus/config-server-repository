@@ -34,10 +34,10 @@ spring:
     platform: mysql
     schema: classpath:init-schema.sql
     initialization-mode: always
-    hikari:
-      data-source-properties:
-        useUnicode: true
-        characterEncoding: UTF-8
+#    hikari:
+#      data-source-properties:
+#        use-unicode: true
+#        characterEncoding: UTF-8
 
 springdoc:
   api-docs:
