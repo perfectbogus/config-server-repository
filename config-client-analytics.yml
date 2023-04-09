@@ -27,7 +27,7 @@ spring:
         order_inserts: true
         order_updates: true
   datasource:
-    url: jdbc:mysql://localhost:3306/analytics
+    url: jdbc:mysql://localhost:3306
     username: root
     password: changeme
     driver-class-name: com.mysql.cj.jdbc.Driver
