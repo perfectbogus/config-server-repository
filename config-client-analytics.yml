@@ -32,6 +32,8 @@ spring:
     password: changeme
     driver-class-name: com.mysql.cj.jdbc.Driver
     platform: mysql
+    schema: classpath:init-schema.sql
+    initialization-mode: always
 
 springdoc:
   api-docs:
