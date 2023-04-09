@@ -34,8 +34,8 @@ spring:
     platform: mysql
     schema: classpath:init-schema.sql
     initialization-mode: always
-  tomcat:
-    connection-properties: "useUnicode=true;characterEncoding=utf-8;"
+    tomcat:
+      connection-properties: "useUnicode=true;characterEncoding=utf-8;"
 
 springdoc:
   api-docs:
