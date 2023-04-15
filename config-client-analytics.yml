@@ -39,7 +39,7 @@ spring:
     initialization-mode: always
   sql:
     init:
-      mode: alyways
+      mode: always
 
 springdoc:
   api-docs:
