@@ -28,6 +28,10 @@ elastic-query-web-client:
     accept: ${elastic-query-web-client.webclient.accept-type}
 
 spring:
+  cloud:
+    loadBalancer:
+      ribbon:
+        enabled: false
   thymeleaf:
     cache: false
   security:

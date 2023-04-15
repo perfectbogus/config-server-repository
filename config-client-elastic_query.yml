@@ -24,6 +24,10 @@ server:
     context-path: /elastic-query-service
 
 spring:
+  cloud:
+    loadBalancer:
+      ribbon:
+        enabled: false
   security:
     oauth2:
       resourceserver:
