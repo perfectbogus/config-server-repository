@@ -82,9 +82,3 @@ retry-config:
   multiplier: 2.0
   maxAttempts: 3
   sleep-time-ms: 2000
-
-logging:
-  level:
-    org:
-      hibernate:
-        sql: DEBUG
